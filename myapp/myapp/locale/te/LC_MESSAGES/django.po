@@ -1,0 +1,262 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: myapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 17:38+0530\n"
+"PO-Revision-Date: 2025-11-19 11:00+0530\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Telugu\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\myapp\settings.py:130
+msgid "English"
+msgstr "ఇంగ్లీష్"
+
+#: .\myapp\settings.py:131
+msgid "Tamil"
+msgstr "తమిళం"
+
+#: .\myapp\settings.py:132
+msgid "Hindi"
+msgstr "హిందీ"
+
+#: .\myapp\settings.py:133
+msgid "Telugu"
+msgstr "తెలుగు"
+
+#: .\myapp\settings.py:134
+msgid "Kannada"
+msgstr "కన్నడ"
+
+#: .\myapp\templates\home.html:10
+msgid "Main Banner"
+msgstr "ప్రధాన బ్యానర్"
+
+#: .\myapp\templates\home.html:20
+msgid "See all"
+msgstr "అన్నీ చూడండి"
+
+#: .\myapp\templates\home.html:21
+msgid "Popular Products"
+msgstr "జనాదరణ పొందిన ఉత్పత్తులు"
+
+#: .\myapp\templates\includes\footer.html:10
+msgid "Contact us at"
+msgstr "మమ్మల్ని సంప్రదించండి"
+
+#: .\myapp\templates\includes\footer.html:11
+msgid "+879-332-9375"
+msgstr "+879-332-9375"
+
+#: .\myapp\templates\includes\footer.html:12
+msgid "Street Name 123"
+msgstr "వీధి పేరు 123"
+
+#: .\myapp\templates\includes\navbar.html:20
+msgid "Language"
+msgstr "భాష"
+
+#: .\myapp\templates\includes\navbar.html:37
+msgid "USD"
+msgstr "USD"
+
+#: .\myapp\templates\includes\navbar.html:39
+msgid "EUR"
+msgstr "EUR"
+
+#: .\myapp\templates\includes\navbar.html:40
+msgid "AED"
+msgstr "AED"
+
+#: .\myapp\templates\includes\navbar.html:41
+msgid "RUBL"
+msgstr "రుద్దు"
+
+#: .\myapp\templates\includes\navbar.html:48
+msgid "Email"
+msgstr "ఇమెయిల్"
+
+#: .\myapp\templates\includes\navbar.html:49
+msgid "Call us"
+msgstr "మాకు కాల్ చేయండి"
+
+#: .\myapp\templates\includes\navbar.html:70
+msgid "All Categories"
+msgstr "అన్ని వర్గాలు"
+
+#: .\myapp\templates\includes\navbar.html:74
+#: .\myapp\templates\store\store.html:32
+msgid "All Products"
+msgstr "అన్ని ఉత్పత్తులు"
+
+#: .\myapp\templates\includes\navbar.html:82
+msgid "Store"
+msgstr "స్టోర్"
+
+#: .\myapp\templates\includes\navbar.html:87
+msgid "Search goods..."
+msgstr "వస్తువులను వెతకండి..."
+
+#: .\myapp\templates\includes\navbar.html:98
+msgid "Welcome guest!"
+msgstr "స్వాగతం అతిథి!"
+
+#: .\myapp\templates\includes\navbar.html:100
+msgid "Sign in"
+msgstr "సైన్ ఇన్ చేయండి"
+
+#: .\myapp\templates\includes\navbar.html:101
+msgid "Register"
+msgstr "నమోదు చేసుకోండి"
+
+#: .\myapp\templates\product_detail.html:35
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "          %(product_name)s is a streetwear-inspired collection that continues to break\n"
+#| "          away from the conventions of mainstream fashion. Made in Italy, these %(color)s\n"
+#| "          low-top sneakers.\n"
+#| "          "
+msgid ""
+"\n"
+"%(product_name)s is a streetwear-inspired collection that continues to break\n"
+"away from the conventions of mainstream fashion. Made in Italy, these %(color)s\n"
+"low-top sneakers.\n"
+msgstr ""
+"\n"
+"%(product_name)s అనేది వీధి దుస్తుల స్ఫూర్తితో రూపొందించిన సేకరణ, ఇది కొనసాగుతూ\n"
+"ప్రధాన ఫ్యాషన్ సంప్రదాయాల నుండి దూరంగా ఉంటుంది. ఇటలీలో తయారైన, ఈ %(color)s\n"
+"లో-టాప్ స్నీకర్లు.\n"
+
+#: .\myapp\templates\product_detail.html:49
+msgid "Choose Color"
+msgstr "రంగును ఎంచుకోండి"
+
+#: .\myapp\templates\product_detail.html:51
+msgid "Silver"
+msgstr "వెండి"
+
+#: .\myapp\templates\product_detail.html:52
+msgid "Gray"
+msgstr "బూడిద"
+
+#: .\myapp\templates\product_detail.html:53
+msgid "Gold"
+msgstr "బంగారం"
+
+#: .\myapp\templates\product_detail.html:54
+msgid "Black"
+msgstr "నలుపు"
+
+#: .\myapp\templates\product_detail.html:62
+msgid "Select Size"
+msgstr "పరిమాణాన్ని ఎంచుకోండి"
+
+#: .\myapp\templates\product_detail.html:64
+msgid "S"
+msgstr "ఎస్"
+
+#: .\myapp\templates\product_detail.html:65
+msgid "M"
+msgstr "ఎం"
+
+#: .\myapp\templates\product_detail.html:66
+msgid "L"
+msgstr "ఎల్"
+
+#: .\myapp\templates\product_detail.html:67
+msgid "XL"
+msgstr "ఎక్స్ట్రా లార్జ్"
+
+#: .\myapp\templates\product_detail.html:75
+#: .\myapp\templates\store\store.html:128
+msgid "Add to cart"
+msgstr "కార్ట్‌కి జోడించండి"
+
+#: .\myapp\templates\product_detail.html:92
+msgid "Customer Reviews"
+msgstr "కస్టమర్ రివ్యూలు"
+
+#: .\myapp\templates\product_detail.html:99
+msgid "24.04.2020"
+msgstr "24.04.2020"
+
+#: .\myapp\templates\product_detail.html:100
+msgid "Mike John"
+msgstr "మైక్ జాన్"
+
+#: .\myapp\templates\product_detail.html:105
+msgid ""
+"Dummy comment Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed "
+"do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad "
+"minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+msgstr ""
+"డమ్మీ వ్యాఖ్య లోరెమ్ ఇప్సమ్ డోలర్ సిట్ అమెట్, కాన్సెక్టెర్ అడిపిసిసింగ్ "
+"ఎలిట్, సెడ్ డో యూస్మాడ్ టెంపోర్ ఇన్సిడిడెంట్ యుట్ లేబర్ మరియు డోలోర్ మాగ్నా "
+"అలీవా. ఉల్ ఎనిమ్ అడ్ మినిమ్ వెనియం, క్విస్ నోస్ట్రడ్ ఎక్సర్‌సిటేషన్ ఉల్లంకో "
+"లేబర్స్ నిసి యుట్ అలీక్విప్"
+
+#: .\myapp\templates\store\store.html:9
+#, fuzzy
+#| msgid "Store"
+msgid "Our Store"
+msgstr "స్టోర్"
+
+#: .\myapp\templates\store\store.html:26
+#, fuzzy
+#| msgid "All Categories"
+msgid "Categories"
+msgstr "అన్ని వర్గాలు"
+
+#: .\myapp\templates\store\store.html:46
+msgid "Sizes"
+msgstr "పరిమాణాలు"
+
+#: .\myapp\templates\store\store.html:66
+msgid "Price range"
+msgstr "ధర పరిధి"
+
+#: .\myapp\templates\store\store.html:73
+msgid "Min"
+msgstr "కనిష్ట"
+
+#: .\myapp\templates\store\store.html:85
+msgid "Max"
+msgstr "గరిష్టంగా"
+
+#: .\myapp\templates\store\store.html:97
+msgid "Apply"
+msgstr "దరఖాస్తు చేసుకోండి"
+
+#: .\myapp\templates\store\store.html:110
+msgid "Items found"
+msgstr "వస్తువులు దొరికాయి"
+
+#: .\myapp\templates\store\store.html:138
+msgid "Previous"
+msgstr "మునుపటి"
+
+#: .\myapp\templates\store\store.html:142
+msgid "Next"
+msgstr "తదుపరి"
+
+#, fuzzy
+#~ msgid "XS"
+#~ msgstr "ఎస్"
+
+#, fuzzy
+#~ msgid "SM"
+#~ msgstr "ఎస్"
+
+#, fuzzy
+#~ msgid "LG"
+#~ msgstr "ఎల్"
+
+#, fuzzy
+#~ msgid "XXL"
+#~ msgstr "ఎక్స్ట్రా లార్జ్"

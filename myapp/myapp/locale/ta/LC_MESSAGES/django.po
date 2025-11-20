@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 17:38+0530\n"
+"PO-Revision-Date: 2025-11-19 17:50+0530\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Tamil <ta@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "English"
+msgstr "ஆங்கிலம்"
+
+msgid "Tamil"
+msgstr "தமிழ்"
+
+msgid "Hindi"
+msgstr "ஹிந்தி"
+
+msgid "Telugu"
+msgstr "தெலுங்கு"
+
+msgid "Kannada"
+msgstr "கன்னடம்"
+
+msgid "Main Banner"
+msgstr "முக்கிய பேனர்"
+
+msgid "See all"
+msgstr "அனைத்தையும் பார்க்கவும்"
+
+msgid "Popular Products"
+msgstr "பிரபலமான தயாரிப்புகள்"
+
+msgid "Contact us at"
+msgstr "எங்களை தொடர்பு கொள்ளவும்"
+
+msgid "+879-332-9375"
+msgstr "+879-332-9375"
+
+msgid "Street Name 123"
+msgstr "தெரு பெயர் 123"
+
+msgid "Language"
+msgstr "மொழி"
+
+msgid "USD"
+msgstr "அமெரிக்க டாலர்"
+
+msgid "EUR"
+msgstr "EUR"
+
+msgid "AED"
+msgstr "AED"
+
+msgid "RUBL"
+msgstr "ரூபிள்"
+
+msgid "Email"
+msgstr "மின்னஞ்சல்"
+
+msgid "Call us"
+msgstr "எங்களை அழைக்கவும்"
+
+msgid "All Categories"
+msgstr "அனைத்து வகைகள்"
+
+msgid "All Products"
+msgstr "அனைத்து தயாரிப்புகளும்"
+
+msgid "Store"
+msgstr "ஸ்டோர்"
+
+msgid "Search goods..."
+msgstr "பொருட்களை தேடு..."
+
+msgid "Welcome guest!"
+msgstr "விருந்தினர் வருக!"
+
+msgid "Sign in"
+msgstr "உள்நுழைக"
+
+msgid "Register"
+msgstr "பதிவு செய்யுங்கள்"
+
+msgid ""
+"\n"
+"%(product_name)s is a streetwear-inspired collection that continues to break\n"
+"away from the conventions of mainstream fashion. Made in Italy, these %(color)s\n"
+"low-top sneakers.\n"
+msgstr ""
+"\n"
+"%(product_name)s என்பது தெரு உடைகளால் ஈர்க்கப்பட்ட தொகுப்பாகும், இது பிரதான ஃபேஷன் மரபுகளை மீறி தொடர்கிறது. இத்தாலியில் தயாரிக்கப்பட்ட இந்த %(color)s குறைந்த மேல் ஸ்னீக்கர்கள்.\n"
+
+msgid "Choose Color"
+msgstr "நிறத்தைத் தேர்ந்தெடுக்கவும்"
+
+msgid "Silver"
+msgstr "வெள்ளி"
+
+msgid "Gray"
+msgstr "சாம்பல்"
+
+msgid "Gold"
+msgstr "தங்கம்"
+
+msgid "Black"
+msgstr "கருப்பு"
+
+msgid "Select Size"
+msgstr "அளவைத் தேர்ந்தெடுக்கவும்"
+
+msgid "S"
+msgstr "எஸ்"
+
+msgid "M"
+msgstr "எம்"
+
+msgid "L"
+msgstr "எல்"
+
+msgid "XL"
+msgstr "எக்ஸ்எல்"
+
+msgid "Add to cart"
+msgstr "வண்டியில் சேர்க்கவும்"
+
+msgid "Customer Reviews"
+msgstr "வாடிக்கையாளர் மதிப்புரைகள்"
+
+msgid "24.04.2020"
+msgstr "24.04.2020"
+
+msgid "Mike John"
+msgstr "மைக் ஜான்"
+
+msgid ""
+"\n"
+"Dummy comment Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed\n"
+"do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n"
+"minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.\n"
+msgstr ""
+"\n"
+"போலி கருத்து: லோறெம் இப்சம் டொலர் சிட் அமெட், கான்செக்டெசர் அடிப்படையில்\n"
+"செயல், சில வேலைகளைச் செய்ய முடியாது; இது சிறிய விவரங்களை மட்டுமே\n"
+"வழங்குகிறது.\n"
+
+msgid "Our Store"
+msgstr "எங்கள் ஸ்டோர்"
+
+msgid "Categories"
+msgstr "வகைகள்"
+
+msgid "Sizes"
+msgstr "அளவுகள்"
+
+msgid "Price range"
+msgstr "விலை வரம்பு"
+
+msgid "Min"
+msgstr "குறைந்தபட்சம்"
+
+msgid "Max"
+msgstr "அதிகபட்சம்"
+
+msgid "Apply"
+msgstr "விண்ணப்பிக்கவும்"
+
+msgid "Items found"
+msgstr "பொருட்கள் கிடைத்தன"
+
+msgid "Previous"
+msgstr "முந்தைய"
+
+msgid "Next"
+msgstr "அடுத்து"

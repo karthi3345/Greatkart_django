@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block content %}
+
+<!-- ========================= MAIN BANNER ========================= -->
+<section class="section-intro padding-y-sm">
+    <div class="container">
+        <div class="intro-banner-wrap">
+            <img src="{% static 'images/banners/2.jpg' %}" class="img-fluid rounded" alt="{% trans 'Main Banner' %}">
+        </div>
+    </div>
+</section>
+
+<!-- ========================= POPULAR PRODUCTS ========================= -->
+<section class="section-name padding-y-sm">
+<div class="container">
+
+    <header class="section-heading">
+        <a href="{% url 'store' %}" class="btn btn-outline-primary float-right">{% trans "See all" %}</a>
+        <h3 class="section-title">{% trans "Popular Products" %}</h3>
+    </header>
+
+    <div class="row">
+
+        {% for product in products %}
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+            <div class="card h-100">
+
+                <!-- Product Image -->
+                <a href="{{ product.get_url }}" class="text-center d-block">
+                    <img src="{{ product.img.url }}" class="img-fluid" alt="{{ product.get_url }}">
+                </a>
+
+                <!-- Card Body -->
+                <div class="card-body text-center">
+
+                    <h6 class="card-title">
+                        <a href="{{product.get_url}}" class="fw-bold text-dark" >{{ product.product_name }}</a>
+                    </h6>
+
+                    <div class="price text-warning fw-bold">
+                        ${{ product.price }}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+</div>
+</section>
+
+{% endblock %}

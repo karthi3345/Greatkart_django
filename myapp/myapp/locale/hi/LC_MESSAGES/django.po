@@ -1,0 +1,189 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: myapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 11:16+0530\n"
+"PO-Revision-Date: 2025-11-19 10:50+0530\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\myapp\settings.py:130
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: .\myapp\settings.py:131
+msgid "Tamil"
+msgstr "तामिल"
+
+#: .\myapp\settings.py:132
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: .\myapp\settings.py:133
+msgid "Telugu"
+msgstr "तेलुगू"
+
+#: .\myapp\settings.py:134
+msgid "Kannada"
+msgstr "कन्नडा"
+
+#: .\myapp\templates\home.html:10
+msgid "Main Banner"
+msgstr "मुख्य बैनर"
+
+#: .\myapp\templates\home.html:20
+msgid "See all"
+msgstr "सभी देखें"
+
+#: .\myapp\templates\home.html:21
+msgid "Popular Products"
+msgstr "लोकप्रिय उत्पाद"
+
+#: .\myapp\templates\includes\footer.html:10
+msgid "Contact us at"
+msgstr "हमसे संपर्क करें"
+
+#: .\myapp\templates\includes\footer.html:11
+msgid "+879-332-9375"
+msgstr "+879-332-9375"
+
+#: .\myapp\templates\includes\footer.html:12
+msgid "Street Name 123"
+msgstr "सड़क का नाम 123"
+
+#: .\myapp\templates\includes\navbar.html:20
+msgid "Language"
+msgstr "भाषा"
+
+#: .\myapp\templates\includes\navbar.html:37
+msgid "USD"
+msgstr "USD"
+
+#: .\myapp\templates\includes\navbar.html:39
+msgid "EUR"
+msgstr "ईयूआर"
+
+#: .\myapp\templates\includes\navbar.html:40
+msgid "AED"
+msgstr "एईडी"
+
+#: .\myapp\templates\includes\navbar.html:41
+msgid "RUBL"
+msgstr "रूबल"
+
+#: .\myapp\templates\includes\navbar.html:48
+msgid "Email"
+msgstr "ईमेल"
+
+#: .\myapp\templates\includes\navbar.html:49
+msgid "Call us"
+msgstr "हमें कॉल करें"
+
+#: .\myapp\templates\includes\navbar.html:70
+msgid "All Categories"
+msgstr "सभी श्रेणियाँ"
+
+#: .\myapp\templates\includes\navbar.html:74
+msgid "All Products"
+msgstr "सभी प्रोडक्ट"
+
+#: .\myapp\templates\includes\navbar.html:82
+msgid "Store"
+msgstr "स्टोर"
+
+#: .\myapp\templates\includes\navbar.html:87
+msgid "Search goods..."
+msgstr "माल खोजें..."
+
+#: .\myapp\templates\includes\navbar.html:98
+msgid "Welcome guest!"
+msgstr "स्वागत अतिथि!"
+
+#: .\myapp\templates\includes\navbar.html:100
+msgid "Sign in"
+msgstr "साइन इन करें"
+
+#: .\myapp\templates\includes\navbar.html:101
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+#: .\myapp\templates\product_detail.html:35
+#, python-format
+msgid ""
+"%(product_name)s is a streetwear-inspired collection that continues to break"
+" away from the conventions of mainstream fashion. Made in Italy, these "
+"%(color)s low-top sneakers."
+msgstr ""
+"%(product_name)s एक स्ट्रीटवियर-प्रेरित संग्रह है जो मुख्यधारा के फैशन की "
+"परंपराओं से दूर रहता है। इटली में निर्मित, ये %(color)s लो-टॉप स्नीकर्स हैं।"
+
+#: .\myapp\templates\product_detail.html:47
+msgid "Choose Color"
+msgstr "रंग चुनें"
+
+#: .\myapp\templates\product_detail.html:49
+msgid "Silver"
+msgstr "चाँदी"
+
+#: .\myapp\templates\product_detail.html:50
+msgid "Gray"
+msgstr "स्लेटी"
+
+#: .\myapp\templates\product_detail.html:51
+msgid "Gold"
+msgstr "सोना"
+
+#: .\myapp\templates\product_detail.html:52
+msgid "Black"
+msgstr "काला"
+
+#: .\myapp\templates\product_detail.html:60
+msgid "Select Size"
+msgstr "आकार चुनें"
+
+#: .\myapp\templates\product_detail.html:62
+msgid "S"
+msgstr "एस"
+
+#: .\myapp\templates\product_detail.html:63
+msgid "M"
+msgstr "एम"
+
+#: .\myapp\templates\product_detail.html:64
+msgid "L"
+msgstr "एल"
+
+#: .\myapp\templates\product_detail.html:65
+msgid "XL"
+msgstr "एक्स्ट्रा लार्ज"
+
+#: .\myapp\templates\product_detail.html:73
+msgid "Add to cart"
+msgstr "कार्ट में जोड़ें"
+
+#: .\myapp\templates\product_detail.html:90
+msgid "Customer Reviews"
+msgstr "ग्राहक समीक्षाएँ"
+
+#: .\myapp\templates\product_detail.html:97
+msgid "24.04.2020"
+msgstr "24.04.2020"
+
+#: .\myapp\templates\product_detail.html:98
+msgid "Mike John"
+msgstr "माइक जॉन"
+
+#: .\myapp\templates\product_detail.html:103
+msgid ""
+"Dummy comment Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed "
+"do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad "
+"minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+msgstr ""
+"डमी टिप्पणी लोरेम इप्सम डोलर सिट अमेट, कंसेक्टेचर एडिपिसिंग एलीट, सेड डू "
+"ईयूसमॉड टेम्पोर इंसिडिडंट यूट लेबर एट डोलोर मैग्ना अलिका। यूटी एनिम एड मिनिम"
+" वेणियम, क्विस नोस्ट्रूड एक्सर्सिटेशन उल्लामको लेबोरिस निसी यूटी एलिक्विप।"

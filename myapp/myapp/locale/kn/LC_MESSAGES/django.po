@@ -1,0 +1,269 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: myapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 17:38+0530\n"
+"PO-Revision-Date: 2025-11-19 11:10+0530\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Kannada\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\myapp\settings.py:130
+msgid "English"
+msgstr "ಇಂಗ್ಲಿಷ್"
+
+#: .\myapp\settings.py:131
+msgid "Tamil"
+msgstr "ತಮಿಳು"
+
+#: .\myapp\settings.py:132
+msgid "Hindi"
+msgstr "ಹಿಂದಿ"
+
+#: .\myapp\settings.py:133
+msgid "Telugu"
+msgstr "ತೆಲುಗು"
+
+#: .\myapp\settings.py:134
+msgid "Kannada"
+msgstr "ಕನ್ನಡ"
+
+#: .\myapp\templates\home.html:10
+msgid "Main Banner"
+msgstr "ಮುಖ್ಯ ಬ್ಯಾನರ್"
+
+#: .\myapp\templates\home.html:20
+msgid "See all"
+msgstr "ಎಲ್ಲಾವನ್ನೂ ನೋಡಿ"
+
+#: .\myapp\templates\home.html:21
+msgid "Popular Products"
+msgstr "ಜನಪ್ರಿಯ ಉತ್ಪನ್ನಗಳು"
+
+#: .\myapp\templates\includes\footer.html:10
+msgid "Contact us at"
+msgstr "ನಮಗೆ ಸಂಪರ್ಕಿಸಿ"
+
+#: .\myapp\templates\includes\footer.html:11
+msgid "+879-332-9375"
+msgstr "+879-332-9375"
+
+#: .\myapp\templates\includes\footer.html:12
+msgid "Street Name 123"
+msgstr "ಬೀದಿ ಹೆಸರು 123"
+
+#: .\myapp\templates\includes\navbar.html:20
+msgid "Language"
+msgstr "ಭಾಷೆ"
+
+#: .\myapp\templates\includes\navbar.html:37
+msgid "USD"
+msgstr "USD"
+
+#: .\myapp\templates\includes\navbar.html:39
+msgid "EUR"
+msgstr "EUR"
+
+#: .\myapp\templates\includes\navbar.html:40
+msgid "AED"
+msgstr "AED"
+
+#: .\myapp\templates\includes\navbar.html:41
+msgid "RUBL"
+msgstr "ರೂಬಲ್"
+
+#: .\myapp\templates\includes\navbar.html:48
+msgid "Email"
+msgstr "ಇಮೇಲ್"
+
+#: .\myapp\templates\includes\navbar.html:49
+msgid "Call us"
+msgstr "ನಮಗೆ ಕರೆ ಮಾಡಿ"
+
+#: .\myapp\templates\includes\navbar.html:70
+msgid "All Categories"
+msgstr "ಎಲ್ಲಾ ವರ್ಗಗಳು"
+
+#: .\myapp\templates\includes\navbar.html:74
+#: .\myapp\templates\store\store.html:32
+msgid "All Products"
+msgstr "ಎಲ್ಲಾ ಉತ್ಪನ್ನಗಳು"
+
+#: .\myapp\templates\includes\navbar.html:82
+msgid "Store"
+msgstr "ಅಂಗಡಿ"
+
+#: .\myapp\templates\includes\navbar.html:87
+msgid "Search goods..."
+msgstr "ಸರಕುಗಳನ್ನು ಹುಡುಕಿ..."
+
+#: .\myapp\templates\includes\navbar.html:98
+msgid "Welcome guest!"
+msgstr "ಸ್ವಾಗತ ಅತಿಥಿ!"
+
+#: .\myapp\templates\includes\navbar.html:100
+msgid "Sign in"
+msgstr "ಸೈನ್ ಇನ್ ಮಾಡಿ"
+
+#: .\myapp\templates\includes\navbar.html:101
+msgid "Register"
+msgstr "ನೋಂದಾಯಿಸಿ"
+
+#: .\myapp\templates\product_detail.html:35
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "          %(product_name)s is a streetwear-inspired collection that "
+#| "continues to break\n"
+#| "          away from the conventions of mainstream fashion. Made in Italy, "
+#| "these %(color)s\n"
+#| "          low-top sneakers.\n"
+#| "          "
+msgid ""
+"\n"
+"%(product_name)s is a streetwear-inspired collection that continues to "
+"break\n"
+"away from the conventions of mainstream fashion. Made in Italy, these "
+"%(color)s\n"
+"low-top sneakers.\n"
+msgstr ""
+"\n"
+"%(product_name)s ಸ್ಟ್ರೀಟ್‌ವೇರ್ ಪ್ರೇರಿತ ಸಂಗ್ರಹವಾಗಿದ್ದು, ಇದು ಮುಖ್ಯ ಫ್ಯಾಷನ್ ಸಂಪ್ರದಾಯಗಳಿಂದ "
+"ದೂರವಾಗಿ ಮುಂದುವರಿಯುತ್ತದೆ.\n"
+"ಇಟಲಿಯಲ್ಲಿ ತಯಾರಿಸಲ್ಪಟ್ಟಿದೆ, ಈ %(color)s ಕಡಿಮೆ-ಟಾಪ್ ಸ್ನೀಕರ್‌ಗಳು."
+
+#: .\myapp\templates\product_detail.html:49
+msgid "Choose Color"
+msgstr "ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+
+#: .\myapp\templates\product_detail.html:51
+msgid "Silver"
+msgstr "ಬೆಳ್ಳಿ"
+
+#: .\myapp\templates\product_detail.html:52
+msgid "Gray"
+msgstr "ಬೂದು"
+
+#: .\myapp\templates\product_detail.html:53
+msgid "Gold"
+msgstr "ಚಿನ್ನ"
+
+#: .\myapp\templates\product_detail.html:54
+msgid "Black"
+msgstr "ಕಪ್ಪು"
+
+#: .\myapp\templates\product_detail.html:62
+msgid "Select Size"
+msgstr "ಗಾತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+
+#: .\myapp\templates\product_detail.html:64
+msgid "S"
+msgstr "ಎಸ್"
+
+#: .\myapp\templates\product_detail.html:65
+msgid "M"
+msgstr "ಎಂ"
+
+#: .\myapp\templates\product_detail.html:66
+msgid "L"
+msgstr "ಎಲ್"
+
+#: .\myapp\templates\product_detail.html:67
+msgid "XL"
+msgstr "ಎಕ್ಸ್ಟ್ರಾ ಲಾರ್ಜ್"
+
+#: .\myapp\templates\product_detail.html:75
+#: .\myapp\templates\store\store.html:128
+msgid "Add to cart"
+msgstr "ಕಾರ್ಟ್‌ಗೆ ಸೇರಿಸಿ"
+
+#: .\myapp\templates\product_detail.html:92
+msgid "Customer Reviews"
+msgstr "ಗ್ರಾಹಕರ ವಿಮರ್ಶೆಗಳು"
+
+#: .\myapp\templates\product_detail.html:99
+msgid "24.04.2020"
+msgstr "24.04.2020"
+
+#: .\myapp\templates\product_detail.html:100
+msgid "Mike John"
+msgstr "ಮೈಕ್ ಜಾನ್"
+
+#: .\myapp\templates\product_detail.html:105
+msgid ""
+"Dummy comment Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed "
+"do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad "
+"minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+msgstr ""
+"ಡಮ್ಮಿ ಕಾಮೆಂಟ್ ಲೊರೆಮ್ ಇಪ್ಸಮ್ ಡೋಲರ್ ಸಿಟ್ ಅಮೆಟ್, ಕಾನ್ಸೆಕ್ಟೆರ್ ಅಡಿಪಿಸಿಸಿಂಗ್ ಎಲಿಟ್, ಸೆಡ್ ಡೋ "
+"ಯೂಸ್ಮಾಡ್ ಟೆಂಪರ್ ಇನ್ಸಿಡಿಡೆಂಟ್ ಯುಟ್ ಲೇಬರ್ ಮತ್ತು ಡೋಲರ್ ಮಾಗ್ನಾ ಅಲಿಕ್ವಾ. ಉಲ್ ಎನಿಮ್ ಅಡ್ ಮಿನಿಮ್ "
+"ವೆನಿಯಮ್, ಕ್ವಿಸ್ ನಾಸ್ಟ್ರಡ್ ಎಕ್ಸರ್ಸಿಟೇಶನ್ ಉಲ್ಲಾಂಕೋ ಲೇಬರ್ಸ್ ನಿಸಿ ಯುಟ್ ಅಲಿಕ್ವಿಪ್"
+
+#: .\myapp\templates\store\store.html:9
+#, fuzzy
+#| msgid "Store"
+msgid "Our Store"
+msgstr "ಅಂಗಡಿ"
+
+#: .\myapp\templates\store\store.html:26
+#, fuzzy
+#| msgid "All Categories"
+msgid "Categories"
+msgstr "ಎಲ್ಲಾ ವರ್ಗಗಳು"
+
+#: .\myapp\templates\store\store.html:46
+msgid "Sizes"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:66
+msgid "Price range"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:73
+msgid "Min"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:85
+msgid "Max"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:97
+msgid "Apply"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:110
+msgid "Items found"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:138
+msgid "Previous"
+msgstr ""
+
+#: .\myapp\templates\store\store.html:142
+msgid "Next"
+msgstr ""
+
+#, fuzzy
+#~| msgid "S"
+#~ msgid "XS"
+#~ msgstr "ಎಸ್"
+
+#, fuzzy
+#~| msgid "S"
+#~ msgid "SM"
+#~ msgstr "ಎಸ್"
+
+#, fuzzy
+#~| msgid "L"
+#~ msgid "LG"
+#~ msgstr "ಎಲ್"
+
+#, fuzzy
+#~| msgid "XL"
+#~ msgid "XXL"
+#~ msgstr "ಎಕ್ಸ್ಟ್ರಾ ಲಾರ್ಜ್"
