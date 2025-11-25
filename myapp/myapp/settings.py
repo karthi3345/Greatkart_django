@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'category',
     'accounts',
     'store',
+    'card',
 ]
 
 # ---------------------------------------------------------
@@ -83,6 +84,7 @@ TEMPLATES = [
 
                 # Custom processor
                 'category.context_processors.menu_links',
+                'card.context_processors.counter',
             ],
         },
     },

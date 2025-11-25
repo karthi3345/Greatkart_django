@@ -7,16 +7,17 @@
 <section class="section-pagetop bg">
     <div class="container">
         <h2 class="title-page">{% trans "Our Store" %}</h2>
-    </div> <!-- container //  -->
+    </div>
 </section>
 
 <section class="section-content padding-y">
 <div class="container">
 
 <div class="row">
+
     <!-- Sidebar -->
     <aside class="col-md-3">
-        
+
         <div class="card">
             <!-- Categories -->
             <article class="filter-group">
@@ -40,23 +41,35 @@
 
             <!-- Sizes -->
             <article class="filter-group">
-                <header class="card-header">
-                    <a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true">
-                        <i class="icon-control fa fa-chevron-down"></i>
-                        <h6 class="title">{% trans "Sizes" %}</h6>
-                    </a>
-                </header>
-                <div class="filter-content collapse show" id="collapse_4">
-                    <div class="card-body">
-                        {% for size in sizes %}
-                        <label class="checkbox-btn">
-                            <input type="checkbox">
-                            <span class="btn btn-light">{{ size }}</span>
-                        </label>
-                        {% endfor %}
-                    </div>
-                </div>
-            </article>
+		<header class="card-header">
+			<a href="#" data-toggle="collapse" data-target="#collapse_4" aria-expanded="true" class="">
+				<i class="icon-control fa fa-chevron-down"></i>
+				<h6 class="title">Sizes </h6>
+			</a>
+		</header>
+		<div class="filter-content collapse show" id="collapse_4" style="">
+			<div class="card-body">
+			  <label class="checkbox-btn">
+			    <input type="checkbox">
+			    <span class="btn btn-light"> XS </span>
+			  </label>
+
+			  <label class="checkbox-btn">
+			    <input type="checkbox">
+			    <span class="btn btn-light"> SM </span>
+			  </label>
+
+			  <label class="checkbox-btn">
+			    <input type="checkbox">
+			    <span class="btn btn-light"> LG </span>
+			  </label>
+
+			  <label class="checkbox-btn">
+			    <input type="checkbox">
+			    <span class="btn btn-light"> XXL </span>
+			  </label>
+		</div><!-- card-body.// -->
+		</div>
 
             <!-- Price Range -->
             <article class="filter-group">
@@ -74,22 +87,12 @@
                                 <select class="form-control">
                                     <option value="0">$0</option>
                                     <option value="50">$50</option>
-                                    <option value="100">$100</option>
-                                    <option value="150">$150</option>
-                                    <option value="200">$200</option>
-                                    <option value="500">$500</option>
-                                    <option value="1000">$1000</option>
                                 </select>
                             </div>
                             <div class="form-group text-right col-md-6">
                                 <label>{% trans "Max" %}</label>
                                 <select class="form-control">
                                     <option value="50">$50</option>
-                                    <option value="100">$100</option>
-                                    <option value="150">$150</option>
-                                    <option value="200">$200</option>
-                                    <option value="500">$500</option>
-                                    <option value="1000">$1000</option>
                                     <option value="2000">$2000+</option>
                                 </select>
                             </div>
@@ -99,23 +102,24 @@
                 </div>
             </article>
 
-        </div> <!-- card // -->
-    </aside> <!-- col-md-3 // -->
+        </div>
+
+    </aside>
 
     <!-- Main content -->
     <main class="col-md-9">
 
         <header class="border-bottom mb-4 pb-3">
             <div class="form-inline">
-                <span class="mr-md-auto text">{{ products.count }} {% trans "Items found" %}</span>
+                <span class="mr-md-auto text">{{ product_count }} {% trans "Items found" %}</span>
             </div>
         </header>
 
         <div class="row">
             {% for product in products %}
             <div class="col-md-4">
-                <figure class="card card-product-grid">
-                    <div class="img-wrap"> 
+                <figure class="card card-product-grid my-clickable-element">
+                    <div class="img-wrap">
                         <img src="{{ product.img.url }}" alt="{{ product.product_name }}">
                     </div>
                     <figcaption class="info-wrap">
@@ -125,29 +129,63 @@
                                 <span class="price text-warning fw-bold">${{ product.price }}</span>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">{% trans "Add to cart" %}</a>
+                        <a href="{% url 'product_detail' product.category.slug product.slug %}" class="btn btn-block btn-primary">{% trans "View Details" %}</a>
                     </figcaption>
                 </figure>
             </div>
             {% endfor %}
         </div>
 
-        <!-- Pagination -->
-        <nav class="mt-4" aria-label="Page navigation">
-          <ul class="pagination">
-            <li class="page-item disabled"><a class="page-link" href="#">{% trans "Previous" %}</a></li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">{% trans "Next" %}</a></li>
-          </ul>
+        <!-- ========================= PAGINATION ========================= -->
+        {% if products.has_other_pages %}
+        <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination justify-content-center">
+
+                <!-- Previous -->
+                {% if products.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ products.previous_page_number }}">&laquo;</a>
+                    </li>
+                {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">&laquo;</span>
+                    </li>
+                {% endif %}
+
+                <!-- Page Numbers -->
+                {% for i in products.paginator.page_range %}
+                    {% if products.number == i %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ i }}</span>
+                        </li>
+                    {% else %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ i }}">{{ i }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+
+                <!-- Next -->
+                {% if products.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ products.next_page_number }}">&raquo;</a>
+                    </li>
+                {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">&raquo;</span>
+                    </li>
+                {% endif %}
+
+            </ul>
         </nav>
+        {% endif %}
+        <!-- ============================================================= -->
 
-    </main> <!-- col-md-9 // -->
+    </main>
 
-</div> <!-- row // -->
+</div>
 
-</div> <!-- container // -->
+</div>
 </section>
 
 {% endblock %}
