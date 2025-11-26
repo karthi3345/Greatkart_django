@@ -20,6 +20,8 @@
 
     <!-- Product Info -->
     <main class="col-md-6 border-left">
+  <form action="{% url 'add_card' single_product.id %}" method="GET"> 
+      {% csrf_token %}
       <article class="content-body">
 
         <!-- Product Name -->
@@ -47,12 +49,12 @@ low-top sneakers.
         <div class="row">
           <div class="item-option-select">
             <h6>{% trans "Choose Color" %}</h6>
-            <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-light"><input type="radio" name="radio_color"> {% trans "Silver" %}</label>
-              <label class="btn btn-light"><input type="radio" name="radio_color"> {% trans "Gray" %}</label>
-              <label class="btn btn-light active"><input type="radio" name="radio_color" checked> {% trans "Gold" %}</label>
-              <label class="btn btn-light"><input type="radio" name="radio_color"> {% trans "Black" %}</label>
-            </div> 
+            <select  name="color" class="form-control" required>
+              <option value="" disabled selected>{% trans "Choose Color" %}</option>
+              {% for i in single_product.variation_set.colors %}
+              <option value="{{i.variation_value}}">{% trans i.variation_value %}</option>
+              {% endfor %}
+              </select>
           </div>
         </div>
 
@@ -60,12 +62,12 @@ low-top sneakers.
         <div class="row">
           <div class="item-option-select">
             <h6>{% trans "Select Size" %}</h6>
-            <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
-              <label class="btn btn-light"><input type="radio" name="radio_size"> {% trans "S" %}</label>
-              <label class="btn btn-light active"><input type="radio" name="radio_size" checked> {% trans "M" %}</label>
-              <label class="btn btn-light"><input type="radio" name="radio_size"> {% trans "L" %}</label>
-              <label class="btn btn-light"><input type="radio" name="radio_size"> {% trans "XL" %}</label>
-            </div> 
+            <select  name="size" class="form-control " required>
+               <option value="" disabled selected>{% trans "Select Size" %}</option>
+              {% for i in single_product.variation_set.sizes %}
+              <option value="{{i.variation_value}}">{% trans i.variation_value %}</option>
+              {% endfor %}
+              </select>
           </div>
         </div>
 
@@ -87,14 +89,14 @@ low-top sneakers.
     <i class="fas fa-eye"></i>
 </a> 
          {% else %}
-        <a href="{% url 'add_card' single_product.id %}" class="btn btn-primary">
+        <button  type= 'submit'  class="btn btn-primary">
        
-    <span class="text">Add to Cart</span>
-    <i class="fas fa-shopping-cart"></i>
-</a>   {% endif%}
+    <span class="text">Add to Cart</span><i class="fas fa-shopping-cart"></i>
+        </button>   {% endif%}
         {% endif %}
 
       </article>
+    </form>
     </main>
 
   </div>

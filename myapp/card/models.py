@@ -18,11 +18,11 @@ class Card_item(models.Model):
     def sub_total(self):
         return self.product.price * self.quantity
 
-    def __str__(self):
-        return str(self.product)
-    
-    
-    def __str__(self):
-        return f"{self.quantity} x {self.product.name} in {self.card.card_id}"
+    def sub_total(self):
+        return self.product.price * self.quantity
 
+    def __str__(self):
+        return f"{self.quantity} x {self.product.product_name} in {self.card.card_id}"
+    
+    
 

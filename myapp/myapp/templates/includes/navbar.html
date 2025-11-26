@@ -23,7 +23,7 @@
 
             <form action="{% url 'set_language' %}" method="post" style="margin:0;">
               {% csrf_token %}
-              <button class="dropdown-item {% if LANGUAGE_CODE == 'en' %}active{% endif %}" type="submit" name="language" value="en">English</button>
+              <button class="dropdown-item  {% if LANGUAGE_CODE == 'en' %}active{% endif %}" type="submit" name="language" value="en">English</button>
               <button class="dropdown-item {% if LANGUAGE_CODE == 'hi' %}active{% endif %}" type="submit" name="language" value="hi">Hindi</button>
               <button class="dropdown-item {% if LANGUAGE_CODE == 'ta' %}active{% endif %}" type="submit" name="language" value="ta">Tamil</button>
               <button class="dropdown-item {% if LANGUAGE_CODE == 'te' %}active{% endif %}" type="submit" name="language" value="te">Telugu</button>

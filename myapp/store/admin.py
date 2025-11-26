@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product
+from .models import Product, Variation
 from django.utils.html import format_html
 from django.utils.translation import gettext_lazy as _
 
@@ -17,4 +17,11 @@ class ProductAdmin(admin.ModelAdmin):
         return "-"
     
     product_image_tag.short_description = 'Product Image'
+    
+class VariationAdmin(admin.ModelAdmin):
+    list_display = ['product','variation_category', 'variation_value', 'is_active', 'created_date']
+    list_editable = ['is_active']
+    list_filter = ['product','variation_category', 'variation_value']
+
+admin.site.register(Variation, VariationAdmin)
 

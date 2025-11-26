@@ -1,3 +1,4 @@
+from turtle import color
 from django.shortcuts import get_object_or_404, redirect, render
 from store.models import Product
 from .models import Card, Card_item
@@ -14,6 +15,9 @@ def _card_id(request):
 
 
 def add_card(request, product_id):
+    color = request.GET.get('color') # get color from url
+    size = request.GET.get('size')     # get size from url
+    # return HttpResponse(f"Color: {color}, Size: {size}") #taken in static page to test
     product = Product.objects.get(id=product_id)
 
     # get or create the cart/card
@@ -44,6 +48,8 @@ def add_card(request, product_id):
 
  # we going to get card and quantitiy 
 def card(request, total=0, quantity=0,  tax=0 , grand_total=0,cart_items=None):
+    color=request.GET.get('color') # get color from url
+    size=request.GET.get('size')    
 
     try:
         cart=Card.objects.get(card_id=_card_id(request))
